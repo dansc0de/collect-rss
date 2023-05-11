@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/spf13/cobra"
 	"github.com/dansc0de/collect-rss/cmd/feed"
-	"github.com/dansc0de/collect-rss/internal/utils/logger"
+	"github.com/dansc0de/collect-rss/internal/util/logger"
+	"github.com/spf13/cobra"
 )
 
 var rootCmd = &cobra.Command{}
